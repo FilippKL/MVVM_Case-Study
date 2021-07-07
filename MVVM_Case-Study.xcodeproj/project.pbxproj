@@ -19,6 +19,7 @@
 		B6356CF526947761006FF742 /* detailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6356CF426947760006FF742 /* detailedViewController.swift */; };
 		B6356CF7269477BA006FF742 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6356CF6269477BA006FF742 /* User.swift */; };
 		B6356CF926947827006FF742 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6356CF826947827006FF742 /* Parser.swift */; };
+		B6356CFB2695BBC6006FF742 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6356CFA2695BBC6006FF742 /* ViewControllerExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		B6356CF426947760006FF742 /* detailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailedViewController.swift; sourceTree = "<group>"; };
 		B6356CF6269477BA006FF742 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B6356CF826947827006FF742 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		B6356CFA2695BBC6006FF742 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 			children = (
 				B6356CC12694768A006FF742 /* ViewController.swift */,
 				B6356CF426947760006FF742 /* detailedViewController.swift */,
+				B6356CFA2695BBC6006FF742 /* ViewControllerExtension.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 				B6356CC22694768A006FF742 /* ViewController.swift in Sources */,
 				B6356CF7269477BA006FF742 /* User.swift in Sources */,
 				B6356CC82694768A006FF742 /* MVVM_Case_Study.xcdatamodeld in Sources */,
+				B6356CFB2695BBC6006FF742 /* ViewControllerExtension.swift in Sources */,
 				B6356CBE2694768A006FF742 /* AppDelegate.swift in Sources */,
 				B6356CC02694768A006FF742 /* SceneDelegate.swift in Sources */,
 				B6356CF926947827006FF742 /* Parser.swift in Sources */,
