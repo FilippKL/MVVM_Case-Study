@@ -27,8 +27,6 @@ class detailedViewController: UIViewController {
     override func viewDidLoad() {
         parser.requestData()
         userName?.text = words1
-        stars?.text = "\(sumStar)"
-        issuesCount?.text = "\(sumIssues)"
         print("\(words1) username")
         let avatarURL = URL(string: "https://avatars.githubusercontent.com/\(words1)")
         userAvatar.load(URLRequest(url: avatarURL!))
