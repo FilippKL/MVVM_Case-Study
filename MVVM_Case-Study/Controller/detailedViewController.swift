@@ -20,8 +20,14 @@ class detailedViewController: UIViewController {
     @IBOutlet weak var stars: UILabel!
     @IBOutlet weak var issuesCount: UILabel!
     @IBAction func buttonUpdateInfo(_ sender: Any) {
-        stars?.text = "\(sumStar)"
-        issuesCount?.text = "\(sumIssues)"
+//        stars?.text = "\(sumStar)"
+//        issuesCount?.text = "\(sumIssues)"
+        openUrl(urlStr: "https://github.com/\(words1)")
+    }
+    func openUrl(urlStr:String!) {
+         if let url = NSURL(string:urlStr) {
+            UIApplication.shared.open(url as URL)
+         }
     }
     
     override func viewDidLoad() {

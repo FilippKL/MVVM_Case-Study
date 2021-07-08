@@ -30,7 +30,6 @@ struct Parser {
                 
                 sumStar = requestedWord.map({ $0.stargazers_count }).reduce(0, +)
                 sumIssues = requestedWord.map({ $0.open_issues_count }).reduce(0, +)
-                print(sumStar, sumIssues)
                 DispatchQueue.main.async {
                         }
                     }
